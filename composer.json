@@ -1,0 +1,21 @@
+{
+    "name": "distantmagic/resonance-project",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-ds": "*",
+        "ext-igbinary": "*",
+        "ext-sockets": "*",
+        "ext-swoole": "*",
+        "distantmagic/resonance": "^0.1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "constants.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

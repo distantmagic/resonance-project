@@ -7,11 +7,12 @@ namespace App;
 use Distantmagic\Resonance\Attribute\Singleton;
 use Distantmagic\Resonance\UserInterface;
 use Distantmagic\Resonance\UserRepositoryInterface;
+use Swoole\Http\Request;
 
 #[Singleton(provides: UserRepositoryInterface::class)]
 readonly class UserRepository implements UserRepositoryInterface
 {
-    public function findUserById(int|string $userId): ?UserInterface
+    public function findUserById(Request $request, int|string $userId): ?UserInterface
     {
         return null;
     }

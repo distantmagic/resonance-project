@@ -7,7 +7,6 @@ namespace App;
 use Distantmagic\Resonance\Attribute\Singleton;
 use Distantmagic\Resonance\UserInterface;
 use Distantmagic\Resonance\UserRepositoryInterface;
-use LogicException;
 
 #[Singleton(provides: UserRepositoryInterface::class)]
 readonly class UserRepository implements UserRepositoryInterface

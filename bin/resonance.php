@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-namespace App;
-
 require_once __DIR__.'/../vendor/autoload.php';
 
 defined('DM_ROOT') or exit('Configuration is not loaded.');

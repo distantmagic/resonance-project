@@ -121,16 +121,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.9.0",
+            "version": "v0.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "fb1bda8173b6e39d2f01e229457fe6fc87802e25"
+                "reference": "4f22a05823c71345e3bae8c0e1fbd9cfa1ed2dcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/fb1bda8173b6e39d2f01e229457fe6fc87802e25",
-                "reference": "fb1bda8173b6e39d2f01e229457fe6fc87802e25",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/4f22a05823c71345e3bae8c0e1fbd9cfa1ed2dcb",
+                "reference": "4f22a05823c71345e3bae8c0e1fbd9cfa1ed2dcb",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +143,6 @@
                 "ext-ds": "*",
                 "ext-igbinary": "*",
                 "ext-sockets": "*",
-                "ext-swoole": "*",
                 "ezyang/htmlpurifier": "^4.16",
                 "league/commonmark": "^2.4",
                 "nette/php-generator": "^4.1",
@@ -196,9 +195,9 @@
             "description": "PHP Hub Framework",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.9.0"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.9.1"
             },
-            "time": "2023-11-06T21:54:25+00:00"
+            "time": "2023-11-08T10:52:03+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

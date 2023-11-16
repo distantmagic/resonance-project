@@ -186,16 +186,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.11.1",
+            "version": "v0.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "ce10b9791f278f96b04c270281fc2829177eee32"
+                "reference": "81594f55f5dc41dd57df06ec52e2c3288f85201f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/ce10b9791f278f96b04c270281fc2829177eee32",
-                "reference": "ce10b9791f278f96b04c270281fc2829177eee32",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/81594f55f5dc41dd57df06ec52e2c3288f85201f",
+                "reference": "81594f55f5dc41dd57df06ec52e2c3288f85201f",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +263,9 @@
             "description": "PHP Hub Framework",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.11.1"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.11.2"
             },
-            "time": "2023-11-16T12:02:04+00:00"
+            "time": "2023-11-16T21:32:50+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

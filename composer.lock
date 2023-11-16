@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "796c5ac38b92a4067598ba6211d7e08d",
+    "content-hash": "3ec7e887dc9832cabdc9fd6010a60264",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -186,16 +186,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.11.0",
+            "version": "v0.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "b796a385369b1745b850a11b9c58229997418c2a"
+                "reference": "ce10b9791f278f96b04c270281fc2829177eee32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/b796a385369b1745b850a11b9c58229997418c2a",
-                "reference": "b796a385369b1745b850a11b9c58229997418c2a",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/ce10b9791f278f96b04c270281fc2829177eee32",
+                "reference": "ce10b9791f278f96b04c270281fc2829177eee32",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +263,9 @@
             "description": "PHP Hub Framework",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.11.0"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.11.1"
             },
-            "time": "2023-11-16T09:47:39+00:00"
+            "time": "2023-11-16T12:02:04+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

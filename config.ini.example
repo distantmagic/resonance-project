@@ -1,6 +1,7 @@
 [app]
 env = development
 esbuild_metafile = esbuild-meta-app.json
+url = https://localhost:9501
 
 [database]
 default[driver] = mysql
@@ -16,6 +17,15 @@ default[pool_size] = 8
 [manifest]
 background_color = "#ffffff"
 theme_color = "#ffffff"
+
+[oauth2]
+encryption_key = oauth2/defuse.key
+jwt_signing_key_passphrase = yourpassphrase
+jwt_signing_key_private = oauth2/private.key
+jwt_signing_key_public = oauth2/public.key
+session_key_authorization_request = oauth2.authorization_request
+session_key_pkce = oauth2.pkce
+session_key_state = oauth2.state
 
 [redis]
 default[db_index] = 0

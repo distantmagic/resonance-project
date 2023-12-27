@@ -38,8 +38,8 @@ final class Serve extends Command
         $server = new Server(
             $this->swooleConfiguration->host,
             $this->swooleConfiguration->port,
-            // SWOOLE_PROCESS,
-            // SWOOLE_SOCK_TCP | SWOOLE_SSL,
+            SWOOLE_PROCESS,
+            SWOOLE_SOCK_TCP | SWOOLE_SSL,
         );
 
         $server->set([
@@ -47,8 +47,8 @@ final class Serve extends Command
             'enable_coroutine' => true,
             'enable_deadlock_check' => Environment::Development === $this->applicationConfiguration->environment,
             'log_level' => $this->swooleConfiguration->logLevel,
-            // 'ssl_cert_file' => DM_ROOT.'/'.$this->swooleConfiguration->sslCertFile,
-            // 'ssl_key_file' => DM_ROOT.'/'.$this->swooleConfiguration->sslKeyFile,
+            'ssl_cert_file' => DM_ROOT.'/'.$this->swooleConfiguration->sslCertFile,
+            'ssl_key_file' => DM_ROOT.'/'.$this->swooleConfiguration->sslKeyFile,
             'open_http2_protocol' => true,
         ]);
 

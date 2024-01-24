@@ -746,12 +746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "8e730d5513d36216a656bfacf013a519e431fd0b"
+                "reference": "9073ae52277281108e29481f40d03089b0d5ab02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/8e730d5513d36216a656bfacf013a519e431fd0b",
-                "reference": "8e730d5513d36216a656bfacf013a519e431fd0b",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/9073ae52277281108e29481f40d03089b0d5ab02",
+                "reference": "9073ae52277281108e29481f40d03089b0d5ab02",
                 "shasum": ""
             },
             "require": {
@@ -825,7 +825,7 @@
                 "issues": "https://github.com/distantmagic/resonance/issues",
                 "source": "https://github.com/distantmagic/resonance/tree/v0.16.0"
             },
-            "time": "2024-01-23T04:08:43+00:00"
+            "time": "2024-01-24T08:10:53+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

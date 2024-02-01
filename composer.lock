@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65a29db7467cb6fa4b982610e47e4cb4",
+    "content-hash": "efc0b7eef81b0eda09de5e2a4f3c1051",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -186,16 +186,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.18.0",
+            "version": "v0.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "c6888d251e711d76f3631c9a5d6f0ffa955eb946"
+                "reference": "04fc541f3b41bde7d0caba8082b50e14f689e660"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/c6888d251e711d76f3631c9a5d6f0ffa955eb946",
-                "reference": "c6888d251e711d76f3631c9a5d6f0ffa955eb946",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/04fc541f3b41bde7d0caba8082b50e14f689e660",
+                "reference": "04fc541f3b41bde7d0caba8082b50e14f689e660",
                 "shasum": ""
             },
             "require": {
@@ -269,9 +269,9 @@
             "description": "PHP SaaS Framework",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.18.0"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.18.1"
             },
-            "time": "2024-02-01T04:39:28+00:00"
+            "time": "2024-02-01T22:49:35+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

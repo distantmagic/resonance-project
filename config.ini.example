@@ -1,7 +1,8 @@
 [app]
 env = development
 esbuild_metafile = esbuild-meta-app.json
-url = https://localhost:9501
+scheme = https
+url = https://resonance.distantmagic.com
 
 [database]
 default[driver] = mysql
@@ -13,6 +14,18 @@ default[password] = distantmagic
 default[log_queries] = false
 default[pool_prefill] = false
 default[pool_size] = 8
+
+[llamacpp]
+host = 127.0.0.1
+port = 8081
+
+[mailer]
+default[transport_dsn] = smtp://localhost
+default[dkim_domain_name] = example.com
+default[dkim_selector] = resonance1
+default[dkim_signing_key_passphrase] = yourpassphrase
+default[dkim_signing_key_private] = dkim/private.key
+default[dkim_signing_key_public] = dkim/public.key
 
 [manifest]
 background_color = "#ffffff"
@@ -41,6 +54,10 @@ default[pool_size] = 8
 cookie_lifespan = 86400
 cookie_name = dmsession
 redis_connection_pool = default
+
+[sqlite-vss]
+extension_vector0 = vector0.so
+extension_vss0 = vss0.so
 
 [static]
 base_url = https://resonance.distantmagic.com

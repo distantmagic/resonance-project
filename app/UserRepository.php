@@ -12,7 +12,7 @@ use Swoole\Http\Request;
 #[Singleton(provides: UserRepositoryInterface::class)]
 readonly class UserRepository implements UserRepositoryInterface
 {
-    public function findUserById(Request $request, int|string $userId): ?UserInterface
+    public function findUserById(int|string $userId): ?UserInterface
     {
         return null;
     }

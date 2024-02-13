@@ -1,10 +1,6 @@
 {
     "name": "distantmagic/resonance-project",
     "type": "project",
-    "require": {
-        "php": ">=8.2",
-        "distantmagic/resonance": "^0.21.0"
-    },
     "license": "MIT",
     "autoload": {
         "files": [
@@ -13,6 +9,12 @@
         "psr-4": {
             "App\\": "app/"
         }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2",
+        "distantmagic/resonance": "^0.22.0"
     },
     "require-dev": {
         "swoole/ide-helper": "^5.1"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "790f575ce46e2f55e75beebc55843174",
+    "content-hash": "6ad08dc88b01c13d3024e454bb4ccd79",
     "packages": [
         {
             "name": "amphp/amp",
@@ -742,16 +742,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.21.0",
+            "version": "v0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "e2f4fa2ad45ce8e0edbc77235101d9ab932d58c8"
+                "reference": "0e4f41fd77bb7d43ef24c83ca1d89b0c34bc2fd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/e2f4fa2ad45ce8e0edbc77235101d9ab932d58c8",
-                "reference": "e2f4fa2ad45ce8e0edbc77235101d9ab932d58c8",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/0e4f41fd77bb7d43ef24c83ca1d89b0c34bc2fd6",
+                "reference": "0e4f41fd77bb7d43ef24c83ca1d89b0c34bc2fd6",
                 "shasum": ""
             },
             "require": {
@@ -764,6 +764,7 @@
                 "doctrine/sql-formatter": "^1.1",
                 "dragonmantank/cron-expression": "^3.3",
                 "ezyang/htmlpurifier": "^4.16",
+                "grpc/grpc": "^1.57",
                 "guzzlehttp/guzzle": "^7.8",
                 "league/commonmark": "^2.4",
                 "league/oauth2-client": "^2.7",
@@ -826,9 +827,9 @@
             "description": "PHP SaaS Framework",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.21.0"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.22.0"
             },
-            "time": "2024-02-12T03:42:55+00:00"
+            "time": "2024-02-13T05:05:26+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",
@@ -2062,6 +2063,50 @@
                 "source": "https://github.com/ezyang/htmlpurifier/tree/v4.17.0"
             },
             "time": "2023-11-17T15:01:25+00:00"
+        },
+        {
+            "name": "grpc/grpc",
+            "version": "1.57.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grpc/grpc-php.git",
+                "reference": "b610c42022ed3a22f831439cb93802f2a4502fdf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grpc/grpc-php/zipball/b610c42022ed3a22f831439cb93802f2a4502fdf",
+                "reference": "b610c42022ed3a22f831439cb93802f2a4502fdf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "google/auth": "^v1.3.0"
+            },
+            "suggest": {
+                "ext-protobuf": "For better performance, install the protobuf C extension.",
+                "google/protobuf": "To get started using grpc quickly, install the native protobuf library."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Grpc\\": "src/lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "gRPC library for PHP",
+            "homepage": "https://grpc.io",
+            "keywords": [
+                "rpc"
+            ],
+            "support": {
+                "source": "https://github.com/grpc/grpc-php/tree/v1.57.0"
+            },
+            "time": "2023-08-14T23:57:54+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -7221,9 +7266,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.2"

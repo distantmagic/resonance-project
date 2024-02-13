@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30fb9f3c1b5665ed95f4a3f3eb60c759",
+    "content-hash": "de8902147b4e8deaf8cec00e203f3381",
     "packages": [
         {
             "name": "amphp/amp",
@@ -742,16 +742,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.22.1",
+            "version": "v0.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "d73680cd5283280b71ddb1c78fd09ab76ff92025"
+                "reference": "346ff03b2ac2ac0097a6e1e696da644598aa967a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/d73680cd5283280b71ddb1c78fd09ab76ff92025",
-                "reference": "d73680cd5283280b71ddb1c78fd09ab76ff92025",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/346ff03b2ac2ac0097a6e1e696da644598aa967a",
+                "reference": "346ff03b2ac2ac0097a6e1e696da644598aa967a",
                 "shasum": ""
             },
             "require": {
@@ -827,9 +827,9 @@
             "description": "PHP SaaS Framework",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.22.1"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.23.0"
             },
-            "time": "2024-02-13T05:08:02+00:00"
+            "time": "2024-02-13T05:31:02+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

@@ -14,7 +14,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.2",
-        "distantmagic/resonance": "^0.24.0"
+        "distantmagic/resonance": "^0.25.0"
     },
     "require-dev": {
         "swoole/ide-helper": "^5.1"

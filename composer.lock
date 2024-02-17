@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcd88ee92da078ff3ca6fd415d5db096",
+    "content-hash": "2a964811067ef2490380755ab09b1f1f",
     "packages": [
         {
             "name": "amphp/amp",
@@ -742,16 +742,16 @@
         },
         {
             "name": "distantmagic/resonance",
-            "version": "v0.25.1",
+            "version": "v0.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/distantmagic/resonance.git",
-                "reference": "162bd8bd2064efa08d794925532a7b420dfb3270"
+                "reference": "68bbd073a3aec1eca8a5d6e006d839ecf36f94fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/162bd8bd2064efa08d794925532a7b420dfb3270",
-                "reference": "162bd8bd2064efa08d794925532a7b420dfb3270",
+                "url": "https://api.github.com/repos/distantmagic/resonance/zipball/68bbd073a3aec1eca8a5d6e006d839ecf36f94fc",
+                "reference": "68bbd073a3aec1eca8a5d6e006d839ecf36f94fc",
                 "shasum": ""
             },
             "require": {
@@ -824,12 +824,12 @@
                     "email": "mc@distantmagic.com"
                 }
             ],
-            "description": "PHP SaaS Framework",
+            "description": "PHP Framework with AI capabilities.",
             "support": {
                 "issues": "https://github.com/distantmagic/resonance/issues",
-                "source": "https://github.com/distantmagic/resonance/tree/v0.25.1"
+                "source": "https://github.com/distantmagic/resonance/tree/v0.25.2"
             },
-            "time": "2024-02-16T13:45:44+00:00"
+            "time": "2024-02-17T09:22:25+00:00"
         },
         {
             "name": "distantmagic/swoole-futures",

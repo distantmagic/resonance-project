@@ -9,16 +9,21 @@ use Distantmagic\Resonance\HtmlErrorTemplateInterface;
 use Distantmagic\Resonance\HttpError;
 use Distantmagic\Resonance\HttpInterceptableInterface;
 use Distantmagic\Resonance\TwigTemplate;
-use Swoole\Http\Request;
-use Swoole\Http\Response;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
 
 #[Singleton(provides: HtmlErrorTemplateInterface::class)]
 readonly class HtmlErrorTemplate implements HtmlErrorTemplateInterface
 {
-    public function renderHttpError(Request $request, Response $response, HttpError $httpError): HttpInterceptableInterface
+    public function renderHttpError(ServerRequestInterface $request, ResponseInterface $response, HttpError $httpError): HttpInterceptableInterface
     {
-        return new TwigTemplate('error.twig', [
-            'error' => $httpError,
-        ]);
+        return new TwigTemplate(
+            $request,
+            $response,
+            'error.twig',
+            [
+                'error' => $httpError,
+            ],
+        );
     }
 }

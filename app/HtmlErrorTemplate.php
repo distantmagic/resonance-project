@@ -17,13 +17,8 @@ readonly class HtmlErrorTemplate implements HtmlErrorTemplateInterface
 {
     public function renderHttpError(ServerRequestInterface $request, ResponseInterface $response, HttpError $httpError): HttpInterceptableInterface
     {
-        return new TwigTemplate(
-            $request,
-            $response,
-            'error.twig',
-            [
-                'error' => $httpError,
-            ],
-        );
+        return new TwigTemplate('error.twig', [
+            'error' => $httpError,
+        ]);
     }
 }
